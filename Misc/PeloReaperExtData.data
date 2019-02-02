@@ -1,0 +1,9 @@
+@description PeloReaper MiscData
+@version 2019.02.02
+@author pelori
+@link http://peloreaper.blog.jp/
+@provides
+  toolbar_icons/toolbar_peloreaper_dancer_01.png  https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/MiscData/$version/$path
+@changelog
+  + Add a new toolbar icon.
+

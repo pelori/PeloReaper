@@ -1,0 +1,19 @@
+@description PeloReaper Extension
+@version 2019.02.02
+@author pelori
+@link http://peloreaper.blog.jp/
+@provides
+  [win64] reaper_xdna64.dll                 https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
+  [win64] rdna_PeloReaper.dll               https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
+  PeloReaper/Doc/EULA.pdf                   https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
+  PeloReaper/Doc/PeloReaperExtGuide_jp.pdf  https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
+  PeloReaper/Doc/PeloReaperExtGuide_en.pdf  https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
+  PeloReaper/Dancer/DANCER REAPER-Chan.dat  https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
+  PeloReaper/Dancer/DANCER REAPER-Chan.png  https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
+  PeloReaper/Dancer/DANCER REAPER-Chan_Mini.dat  https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
+  PeloReaper/Dancer/DANCER REAPER-Chan_Mini.png  https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
+  PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
+  PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
+@changelog
+ + PeloReaper for ReaPack released.
+
