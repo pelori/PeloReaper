@@ -1,5 +1,5 @@
 @description PeloReaper Extension
-@version 2019.02.02
+@version 2019.03.21
 @author pelori
 @link http://peloreaper.blog.jp/
 @provides
@@ -15,5 +15,5 @@
   PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
 @changelog
- + PeloReaper for ReaPack released.
+ + New features: FavSrc and Misc actions (See PeloReaperExtGuide_*.pdf)
 
