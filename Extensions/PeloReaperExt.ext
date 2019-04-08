@@ -1,5 +1,5 @@
 @description PeloReaper Extension
-@version 2019.03.21
+@version 2019.04.08
 @author pelori
 @link http://peloreaper.blog.jp/
 @provides
@@ -15,5 +15,8 @@
   PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
 @changelog
- + New features: FavSrc and Misc actions (See PeloReaperExtGuide_*.pdf)
+ + New feature: MIDI action (Toggle Key-snap)
+ + Update: [FavSrc]Override folder on export/import media dialog
+ + Update: [FavSrc]Filename filter multiple keywords on import dialog
+ (If you want to learn more, see PeloReaperExtGuide_*.pdf)
 
