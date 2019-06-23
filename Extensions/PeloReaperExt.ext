@@ -1,5 +1,5 @@
 @description PeloReaper Extension
-@version 2019.05.01
+@version 2019.06.23
 @author pelori
 @link http://peloreaper.blog.jp/
 @provides
@@ -15,8 +15,6 @@
   PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
 @changelog
- + New features: A lot of actions for MIDI Editing
- + New features: Actions for opening REAPER project file from wav file which has BWF(bext) info
- + Update: [FavSrc] Save some setting windows' position to REAPER
- (If you want to learn more, see PeloReaperExtGuide_*.pdf)
+ + New features: Send MIDI note ON/OFF on MIDI Editor
+ + New features: Some MIDI CC actions (Insert multiple pitch CC, Set CC values interpolated)
 
