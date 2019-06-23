@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="PeloReaper" commit="0956290a15c8827914ed2a1414a2ae5548fd6261">
+<index version="1" name="PeloReaper" commit="f6750d71986b32d17b951e54feec4942f0996b24">
   <category name="Extensions">
     <reapack name="PeloReaperExt.ext" type="extension" desc="PeloReaper Extension">
       <metadata>
@@ -66,6 +66,21 @@
         <source file="PeloReaper/Dancer/DANCER REAPER-Chan_Mini.png">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2019.05.01/PeloReaper/Dancer/DANCER%20REAPER-Chan_Mini.png</source>
         <source file="PeloReaper/Dancer/IMG Stage_01.dat">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2019.05.01/PeloReaper/Dancer/IMG%20Stage_01.dat</source>
         <source file="PeloReaper/Dancer/IMG Stage_01.png">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2019.05.01/PeloReaper/Dancer/IMG%20Stage_01.png</source>
+      </version>
+      <version name="2019.06.23" author="pelori" time="2019-06-23T12:09:18Z">
+        <changelog><![CDATA[+ New features: Send MIDI note ON/OFF on MIDI Editor
++ New features: Some MIDI CC actions (Insert multiple pitch CC, Set CC values interpolated)]]></changelog>
+        <source platform="win64" file="reaper_xdna64.dll">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2019.06.23/reaper_xdna64.dll</source>
+        <source platform="win64" file="rdna_PeloReaper.dll">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2019.06.23/rdna_PeloReaper.dll</source>
+        <source file="PeloReaper/Doc/EULA.pdf">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2019.06.23/PeloReaper/Doc/EULA.pdf</source>
+        <source file="PeloReaper/Doc/PeloReaperExtGuide_jp.pdf">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2019.06.23/PeloReaper/Doc/PeloReaperExtGuide_jp.pdf</source>
+        <source file="PeloReaper/Doc/PeloReaperExtGuide_en.pdf">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2019.06.23/PeloReaper/Doc/PeloReaperExtGuide_en.pdf</source>
+        <source file="PeloReaper/Dancer/DANCER REAPER-Chan.dat">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2019.06.23/PeloReaper/Dancer/DANCER%20REAPER-Chan.dat</source>
+        <source file="PeloReaper/Dancer/DANCER REAPER-Chan.png">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2019.06.23/PeloReaper/Dancer/DANCER%20REAPER-Chan.png</source>
+        <source file="PeloReaper/Dancer/DANCER REAPER-Chan_Mini.dat">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2019.06.23/PeloReaper/Dancer/DANCER%20REAPER-Chan_Mini.dat</source>
+        <source file="PeloReaper/Dancer/DANCER REAPER-Chan_Mini.png">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2019.06.23/PeloReaper/Dancer/DANCER%20REAPER-Chan_Mini.png</source>
+        <source file="PeloReaper/Dancer/IMG Stage_01.dat">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2019.06.23/PeloReaper/Dancer/IMG%20Stage_01.dat</source>
+        <source file="PeloReaper/Dancer/IMG Stage_01.png">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2019.06.23/PeloReaper/Dancer/IMG%20Stage_01.png</source>
       </version>
     </reapack>
   </category>
