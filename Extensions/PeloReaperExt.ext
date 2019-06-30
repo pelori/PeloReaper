@@ -1,5 +1,5 @@
 @description PeloReaper Extension
-@version 2019.06.23
+@version 2019.06.30
 @author pelori
 @link http://peloreaper.blog.jp/
 @provides
@@ -15,6 +15,7 @@
   PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
 @changelog
- + New features: Send MIDI note ON/OFF on MIDI Editor
- + New features: Some MIDI CC actions (Insert multiple pitch CC, Set CC values interpolated)
+ + Added: Send MIDI note ON/OFF according to scale setting on MIDI Editor
+ + Added: Some mode-switchable actions for executing actions according to scale settings
+ + Added: MIDI CC interpolation (selected CC's min,max will be the value interpolation range)
 
