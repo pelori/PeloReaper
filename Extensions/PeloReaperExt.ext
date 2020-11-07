@@ -1,5 +1,5 @@
 @description PeloReaper Extension
-@version 2020.11.05
+@version 2020.11.07
 @author pelori
 @link http://peloreaper.blog.jp/
 @provides
@@ -15,9 +15,5 @@
   PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
 @changelog
- + Requisites: REAPER v6.11 or later
- + Added: NEUTRINO automation action
- + Added: MIDI Editor: Select key signature root actions
- + Added: Misc zoom selected items action
- + Fixed: Copy and Replace Items Source actions failed with sources having section-info (e.g. Reversed)
+ + Fixed: Some display scaling problems (provisional)
 
