@@ -1,5 +1,5 @@
 @description PeloReaper Extension
-@version 2020.11.07
+@version 2020.12.27
 @author pelori
 @link http://peloreaper.blog.jp/
 @provides
@@ -15,5 +15,6 @@
   PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
 @changelog
- + Fixed: Some display scaling problems (provisional)
+ + Requisites: REAPER v6.19 or later
+ + Added: MediaFolder features and actions
 
