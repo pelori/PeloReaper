@@ -1,5 +1,5 @@
 @description PeloReaper Extension
-@version 2020.12.30
+@version 2021.01.24
 @author pelori
 @link http://peloreaper.blog.jp/
 @provides
@@ -15,5 +15,6 @@
   PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
 @changelog
- + Fixed: [MediaFolder] Improve performance in some cases
+ + Requisites: .Net Framework 4.7.2, VisualStudio 2019 VisualC++ Redistributable(x64)
+ + Added: GameSynth features and actions
 
