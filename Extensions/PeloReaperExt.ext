@@ -1,5 +1,5 @@
 @description PeloReaper Extension
-@version 2021.01.24
+@version 2021.02.21
 @author pelori
 @link http://peloreaper.blog.jp/
 @provides
@@ -15,6 +15,6 @@
   PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
 @changelog
- + Requisites: .Net Framework 4.7.2, VisualStudio 2019 VisualC++ Redistributable(x64)
- + Added: GameSynth features and actions
+ + Modified: [FX-Randomizer]Improve performance, fix some crash problems
+ + Modified: [Neutrino]Singer(model) selection enumerates existent models only
 
