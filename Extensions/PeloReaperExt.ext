@@ -1,5 +1,5 @@
 @description PeloReaper Extension
-@version 2021.03.19
+@version 2022.03.27
 @author pelori
 @link http://peloreaper.blog.jp/
 @provides
@@ -15,6 +15,7 @@
   PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
 @changelog
- + Modified: Plugin loading time faster
- + Modified: [MediaFolder]Supports .RTrackTemplate file, improve some gui behavior
+ + Added and Modified: MediaFolder features (MediaExplorer collaboration functions, global Quick-Path, and so on.)
+ + Added: Subtitle actions (SRT file read/write features)
+ + Added: Various misc features
 
