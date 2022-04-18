@@ -1,5 +1,5 @@
 @description PeloReaper Extension
-@version 2022.03.27
+@version 2022.04.18
 @author pelori
 @link http://peloreaper.blog.jp/
 @provides
@@ -15,7 +15,7 @@
   PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
 @changelog
- + Added and Modified: MediaFolder features (MediaExplorer collaboration functions, global Quick-Path, and so on.)
- + Added: Subtitle actions (SRT file read/write features)
- + Added: Various misc features
+ + Added: [FavSrc]Option to copy folder name to Prefix when switching subfolder selection
+ + Modified: Changed the capitalization rule for all actions
+ + Modified: Minor bug fixes and some improvements
 
