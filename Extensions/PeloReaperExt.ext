@@ -1,5 +1,5 @@
 @description PeloReaper Extension
-@version 2022.04.29
+@version 2022.05.06
 @author pelori
 @link http://peloreaper.blog.jp/
 @provides
@@ -15,7 +15,5 @@
   PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
 @changelog
- + Added: [Neutrino]Various options(NSF, StyleShift, WorldOptions)
- + Modified: [Neutrino]Fixed some crash bug when executing Neutrino batch file
- + Modified: [Neutrino]Supported NEUTRINO version is v1.0.0 or higher
+ + Added: [Dancer]Toggle switch of the Dancer window's top-most state
 
