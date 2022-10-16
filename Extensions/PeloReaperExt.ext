@@ -1,5 +1,5 @@
 @description PeloReaper Extension
-@version 2022.07.16
+@version 2022.10.16
 @author pelori
 @link http://peloreaper.blog.jp/
 @provides
@@ -15,7 +15,6 @@
   PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
 @changelog
- + Added: [MIDI]Actions for note pitch randomization with range settings
- + Added: [Misc]Actions for switching/moving fx chain windows and more
- + Modified: Minor bug fixes
+ + Added: [Misc]Actions for controlling fx chain windows
+ + Added: [Misc]Actions for creating video image sequence(thumbnails) track
 
