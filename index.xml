@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="PeloReaper" commit="9901a62e97ba2b0e88fc34771bb188828def7f04">
+<index version="1" name="PeloReaper" commit="222a291af8e31a0391c742cffaacb6b1d46d1407">
   <category name="Extensions">
     <reapack name="PeloReaperExt.ext" type="extension" desc="PeloReaper Extension">
       <metadata>
@@ -282,6 +282,21 @@
         <source file="PeloReaper/Dancer/IMG Stage_01.dat">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2022.07.16/PeloReaper/Dancer/IMG%20Stage_01.dat</source>
         <source file="PeloReaper/Dancer/IMG Stage_01.png">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2022.07.16/PeloReaper/Dancer/IMG%20Stage_01.png</source>
       </version>
+      <version name="2022.10.16" author="pelori" time="2022-10-16T12:00:51Z">
+        <changelog><![CDATA[+ Added: [Misc]Actions for controlling fx chain windows
++ Added: [Misc]Actions for creating video image sequence(thumbnails) track]]></changelog>
+        <source platform="win64" file="reaper_xdna64.dll">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2022.10.16/reaper_xdna64.dll</source>
+        <source platform="win64" file="rdna_PeloReaper.dll">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2022.10.16/rdna_PeloReaper.dll</source>
+        <source file="PeloReaper/Doc/EULA.pdf">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2022.10.16/PeloReaper/Doc/EULA.pdf</source>
+        <source file="PeloReaper/Doc/PeloReaperExtGuide_jp.pdf">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2022.10.16/PeloReaper/Doc/PeloReaperExtGuide_jp.pdf</source>
+        <source file="PeloReaper/Doc/PeloReaperExtGuide_en.pdf">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2022.10.16/PeloReaper/Doc/PeloReaperExtGuide_en.pdf</source>
+        <source file="PeloReaper/Dancer/DANCER REAPER-Chan.dat">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2022.10.16/PeloReaper/Dancer/DANCER%20REAPER-Chan.dat</source>
+        <source file="PeloReaper/Dancer/DANCER REAPER-Chan.png">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2022.10.16/PeloReaper/Dancer/DANCER%20REAPER-Chan.png</source>
+        <source file="PeloReaper/Dancer/DANCER REAPER-Chan_Mini.dat">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2022.10.16/PeloReaper/Dancer/DANCER%20REAPER-Chan_Mini.dat</source>
+        <source file="PeloReaper/Dancer/DANCER REAPER-Chan_Mini.png">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2022.10.16/PeloReaper/Dancer/DANCER%20REAPER-Chan_Mini.png</source>
+        <source file="PeloReaper/Dancer/IMG Stage_01.dat">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2022.10.16/PeloReaper/Dancer/IMG%20Stage_01.dat</source>
+        <source file="PeloReaper/Dancer/IMG Stage_01.png">https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/2022.10.16/PeloReaper/Dancer/IMG%20Stage_01.png</source>
+      </version>
     </reapack>
   </category>
   <category name="Misc">
@@ -296,12 +311,12 @@
     </reapack>
   </category>
   <metadata>
-    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 PeloReaper Extension\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 About\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 PeloReaper Extension\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 About\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab This is an extension plugin for {\field{\*\fldinst{HYPERLINK "http://reaper.fm"}}{\fldrslt{\ul
 Cockos REAPER
 }}}
@@ -311,7 +326,7 @@ PeloReaper blog
 }}}
 .\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\i for 64bit Windows ONLY}\sa180\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Reapack\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Reapack\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 {\field{\*\fldinst{HYPERLINK "https://reapack.com/"}}{\fldrslt{\ul
 ReaPack
 }}}
@@ -319,7 +334,7 @@ ReaPack
 cfillion
 }}}
 . You can install the PeloReaper Extension plugin to your REAPER via ReaPack.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Installation\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Installation\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 1.\tx360\tab Install ReaPack.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 2.\tx360\tab On REAPER main menu, "Extensions > ReaPack > Import repositories..."\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 3.\tx360\tab Write {\field{\*\fldinst{HYPERLINK "https://github.com/pelori/PeloReaper/raw/master/index.xml"}}{\fldrslt{\ul
