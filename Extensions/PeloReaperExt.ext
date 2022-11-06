@@ -1,5 +1,5 @@
 @description PeloReaper Extension
-@version 2022.10.18
+@version 2022.11.06
 @author pelori
 @link http://peloreaper.blog.jp/
 @provides
@@ -15,5 +15,5 @@
   PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
 @changelog
- + Modified: [Misc]Video thumbnails: fix problem when converting with ffmpeg, and so on.
+ + Added: VOICEVOX CORE Integration features.
 
