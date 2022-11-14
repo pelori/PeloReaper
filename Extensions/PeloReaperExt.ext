@@ -1,5 +1,5 @@
 @description PeloReaper Extension
-@version 2022.11.13
+@version 2022.11.14
 @author pelori
 @link http://peloreaper.blog.jp/
 @provides
@@ -15,5 +15,6 @@
   PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
 @changelog
- + Added: VOICEVOX ENGINE Integration features
+ + Removed: VOICEVOX CORE Integration features
+ + Modified: VOICEVOX ENGINE Integration csv file format, some implovements
 
