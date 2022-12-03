@@ -1,5 +1,5 @@
 @description PeloReaper Extension
-@version 2022.11.26
+@version 2022.12.03
 @author pelori
 @link http://peloreaper.blog.jp/
 @provides
@@ -15,5 +15,6 @@
   PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
 @changelog
- + Added: [VOICEVOX]Dialogue Track related features (TTS with empty-items, import/export csv)
+ + Added: VOICEPEAK Integration features
+ + Modified: [NEUTRINO] Fixed problem with NEUTRINO failing to run
 
