@@ -1,5 +1,5 @@
 @description PeloReaper Extension
-@version 2022.12.11
+@version 2023.02.03
 @author pelori
 @link http://peloreaper.blog.jp/
 @provides
@@ -15,7 +15,10 @@
   PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
 @changelog
- + Added: [VOICEVOX] Actions for switching connection settings
- + Added: [VOICEVOX] Actions for executing VOICEVOX Editr/Server
- + Added: [MediaFolder] Tooltips for GUI controls and help button
+ + Added: [Misc]Actions for generating items for subtitles(includes video processor of text-overlay)
+ + Added: [VOICEVOX]Action for setting speaker ID to track as track name
+ + Added: [VOICEPEAK]Action for setting narrator name to track as track name
+ + Added: [VOICEPEAK]Actions for editing item-notes
+ + Modified: [VOICEPEAK]Retry when VOICEPEAK execution failed
+ + Modified: Some minor improvements
 
