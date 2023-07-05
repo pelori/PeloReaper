@@ -1,5 +1,5 @@
 @description PeloReaper Extension
-@version 2023.02.19
+@version 2023.07.05
 @author pelori
 @link http://peloreaper.blog.jp/
 @provides
@@ -15,8 +15,7 @@
   PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
 @changelog
- + Added: [VOICEVOX]Optional parameters on TTS Settings dialog
- + Added: [VOICEVOX]Optional parameters for csv
- + Added: [VOICEVOX]Actions for editing item-notes for dialogue
- + Added: [MIDI]Action for align note-off of selected notes
+ + Modified: [NEUTRINO]Support NEUTRINO v2.x (WARNING: NEUTRINO v1.x is no longer supported)
+ + Modified: [VOICEPEAK]Fixed narrator name encoding problem for Rikka Koharu
+ + Modified: [VOICEVOX]Minor bug fixes
 
