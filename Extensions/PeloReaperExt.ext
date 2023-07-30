@@ -1,11 +1,15 @@
 @description PeloReaper Extension
-@version 2023.07.05
+@version 2023.07.30
 @author pelori
 @link http://peloreaper.blog.jp/
 @provides
   [win64] reaper_xdna64.dll                 https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   [win64] rdna_PeloReaper.dll               https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
+  [win64] reaper_xchk64.dll                 https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
+  [win64] Ijwhost.dll                       https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
+  [win64] reaper_xdna64.runtimeconfig.json  https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Doc/EULA.pdf                   https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
+  PeloReaper/Doc/LICENSE.pdf                https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Doc/PeloReaperExtGuide_jp.pdf  https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Doc/PeloReaperExtGuide_en.pdf  https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/DANCER REAPER-Chan.dat  https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
@@ -15,7 +19,7 @@
   PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
 @changelog
- + Modified: [NEUTRINO]Support NEUTRINO v2.x (WARNING: NEUTRINO v1.x is no longer supported)
- + Modified: [VOICEPEAK]Fixed narrator name encoding problem for Rikka Koharu
- + Modified: [VOICEVOX]Minor bug fixes
+ + Modified: **** Revamped build environment and framework. Required runtimes have to be installed before REAPER restarts. See http://peloreaper.blog.jp/archives/52971942.html for details. ****
+ + Added: [Dancer]Action for closing all Dancer windows at once
+ + Modified: Minor bug fixes
 
