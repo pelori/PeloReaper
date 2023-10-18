@@ -1,5 +1,5 @@
 @description PeloReaper Extension
-@version 2023.07.30
+@version 2023.10.19
 @author pelori
 @link http://peloreaper.blog.jp/
 @provides
@@ -19,7 +19,5 @@
   PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
 @changelog
- + Modified: **** Revamped build environment and framework. Required runtimes have to be installed before REAPER restarts. See http://peloreaper.blog.jp/archives/52971942.html for details. ****
- + Added: [Dancer]Action for closing all Dancer windows at once
- + Modified: Minor bug fixes
+ + Modified: Fixed problem that the plugin won't be loaded on REAPER7.x.
 
