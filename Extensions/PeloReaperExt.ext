@@ -1,5 +1,5 @@
 @description PeloReaper Extension
-@version 2023.10.19
+@version 2024.08.12
 @author pelori
 @link http://peloreaper.blog.jp/
 @provides
@@ -19,5 +19,7 @@
   PeloReaper/Dancer/IMG Stage_01.dat        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
   PeloReaper/Dancer/IMG Stage_01.png        https://github.com/pelori/PeloReaper/raw/master/ReleaseFiles/Extension/$version/$path
 @changelog
- + Modified: Fixed problem that the plugin won't be loaded on REAPER7.x.
+ + Added: Whisper Integration features.
+ + Added: Some SRT import actions.
+ + Added: Some MIDI note editing actions.
 
